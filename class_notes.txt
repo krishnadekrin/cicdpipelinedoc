@@ -1,0 +1,148 @@
+IBM WebSphere Application Server - IBM
+WebLogic Application Server      
+
+
+jboss---one product --no support - opensource
+No support
+
+
+Redhat
+wildfly --open source
+EAP ------Paid
+
+Middleware Admin
+
+IBM WebSphere Application Server
+war & ear
+
+WAS 7.0       - GUI mode, silent mode
+WAS 8.0
+WAS 8.5.5
+WAS 9.0
+WAS 9.0.5.26 fixpack   imcl command,
+
+
+Types of packages
+-----------------
+1. IBM WebSphere Application Server - Express Package
+2. IBM WebSphere Application Server - Base Package
+3. IBM WebSphere Application Server - Network Deployment Package ---env
+
+
+WAS 7.0 vs WAS 8.5
+
+WAS 7.0
+-------
+1. GUI
+2. Silent Mode
+
+WIN --                 C:\Program Files (x86)\IBM\WebSphere\AppServer
+Linux/hpunix/solaris - /opt/IBM/WebSphere/AppServer
+AIX                  - /usr/IBM/WebSphere/AppServer
+
+
+zip extraction -- WASND7.0
+
+WAS---install.exe
+D:\IBM_ND_7.0_Feb\WebSphere\AppServer
+
+list profiles
+manageprofiles.bat -listProfiles
+
+delete profile
+
+D:\IBM_ND_7.0_Feb\WebSphere\AppServer\bin>manageprofiles.bat -delete -profileName AppSrv01
+
+profileRegistry.xml
+
+
+D:\IBM_ND_7.0_Feb\WebSphere\AppServer\logs\manageprofiles
+profilename_create.txt
+INSTCONFSUCCESS
+
+
+
+D:\IBM_ND_7.0_Feb\WebSphere\AppServer\bin>manageprofiles.bat -create -profileName Custom01 -profilePath "D:\IBM_ND_7.0_Feb\WebSphere\AppServer\profiles\Custom01" -templatePath "D:\IBM_ND_7.0_Feb\WebSphere\AppServer\profileTemplates\managed" -nodeName customnode01 -hostName localhost -cellName customcell01
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
