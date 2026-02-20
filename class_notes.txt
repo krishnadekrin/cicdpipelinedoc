@@ -67,6 +67,70 @@ D:\IBM_ND_7.0_Feb\WebSphere\AppServer\bin>manageprofiles.bat -create -profileNam
 
 
 
+WAS 8.5 installation
+--------------------
+Pre-req---IBM IM - Installation Manager
+
+
+agent.installer.linux.gtk.x86_64_1.9.2009.20240621_1105
+
+
+to uninstall im
+
+/var/ibm/InstallationManager/uninstall
+
+./uninstallc
+
+install IM
+-----------
+./installc -c
+
+/opt/IBM/WebSphere/InstallationManager
+
+
+[root@ip-172-31-30-21 tools]# pwd
+/opt/IBM/InstallationManager/eclipse/tools
+[root@ip-172-31-30-21 tools]# ls
+imcl  imcl.ini  imutilsc  imutilsc.ini
+[root@ip-172-31-30-21 tools]# ./imcl listAvailablePackages -repositories "/opt/softwares/wasnd9.0/repository.config"
+com.ibm.websphere.ND.v90_9.0.5001.20190828_0616
+[root@ip-172-31-30-21 tools]# ./imcl listAvailablePackages -repositories "/opt/softwares/sdk/repository.config"
+com.ibm.java.jdk.v8_8.0.5035.20190422_0948
+[root@ip-172-31-30-21 tools]#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
